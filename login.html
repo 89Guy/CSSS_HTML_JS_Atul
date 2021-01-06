@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LoginPage</title>
+  </head>
+  <body>
+    <table>
+
+    </table>
+    <form class="" action="index.html" method="post" enctype="text/plain">
+      <br /><br />
+    <label>username:</label>
+    <input type="text" name="username" value=""><br />
+      <br /><br />
+    <label>password:</label>
+    <input type="password" name="password" value=""><br />
+      <br /><br />
+    <label>gender:</label>
+    <table>
+      <tr>
+       <td>
+         <label for="male">Male</label>
+         <input type="checkbox" name="male" value=""><br />
+       </td>
+        <td>
+          <label for="female">Female</label>
+          <input type="checkbox" name="female" value=""><br />
+        </td>
+      </tr>
+    </table>
+  <br /><br />
+
+    <label>DateOfBirth:</label>
+    <input type="date" value="Date" > <br />
+      <br /><br />
+
+    <label>Country:</label>
+    <table>
+      <tr>
+        <td>
+          <input type= "radio" name="India" value="" >
+          <label>India</label>
+
+        </td>
+        <td>
+            <input type= "radio" name="US" value="" >
+          <label>US</label>
+
+        </td>
+        <td>
+            <input type= "radio" name="UK" value="" >
+          <label>UK</label>
+
+        </td>
+        <td>
+            <input type= "radio" name="Canada" value="" >
+          <label>Canada</label>
+        </td>
+      </tr>
+    </table><br />
+
+    <label>image:</label>
+    <input type="image" src="AtulPic.JPG" alt="Submit" width="48" height="48"> <br /></br>
+
+      <label>SelectImage:</label>
+      <input type="file" id="img" name="img" accept="image/*"> </br></br>
+
+      <label>SalaryRange:</label>
+      <input type="range" id="range" name="range" min=100000 max=3000000 /> </br></br>
+
+      <label>State:</label>
+      <input list="state" id="State" name="State" />
+      <datalist id="state">
+      <option value="ArunachalPradesh">
+      <option value="AndhraPradesh">
+      <option value="UttarPradesh">
+      <option value="MadhyaPradesh">
+      <option value="Maharashtra">
+      <option value="Karnataka">
+
+      </datalist> <br /><br />
+
+      <label for="City">Choose a city:</label>
+    <select id="City">
+    <optgroup label="Maharashtra">
+       <option>Mumbai</option>
+       <option>Pune</option>
+       <option>Nasik</option>
+   </optgroup>
+   <optgroup label="UttarPradesh">
+       <option>Lucknow</option>
+       <option>Varanasi</option>
+       <option>Gorakhpur</option>
+   </optgroup>
+</select> <br /><br />
+
+    <input type="submit" value="Submit">
+
+    </form>
+  </body>
+</html>
